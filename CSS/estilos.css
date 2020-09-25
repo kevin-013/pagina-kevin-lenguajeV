@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-size: medium;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: pink;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*HEADER*/
+
+
+.cabesa-body{
+    width: 100%;
+    height: 600px;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+}
+ nav{
+     text-align: center;
+     padding: 30px 100px  0 ;
+ }
+ nav > a {
+     color: black;
+     font-weight: 700;
+     text-decoration: none;
+     margin-right: 10px;
+ }
+ .texto-header h1{
+     font-size: 50px;
+     color: black;
+ }
+ .texto-header h2{
+     font-size: 30;
+     font-weight: 300;
+     color: black;
+ }
+ .wave{
+     position: absolute;
+     bottom: 0%;
+     width: 100%;
+   
+ }
+ .carrd{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .carrd .carrd{
+     background:darksalmon;
+     display: flex; 
+     width: 100%;
+     height: 500%;
+     align-items: center;
+     justify-content: space-evenly;
+     border-right: 5px;
+     box-shadow: 0 0 6px 0 rgba(0, 0,0, 0.6);
+
+ }
+
+ .carrd .carrd img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      display: block;
+ }
+/* .carrd . .carrd > .contenido-texto{
+     width: 60%;
+     color: black;
+ }*/
+ .carrd .carrd > .contenido-texto p{
+     font-weight: 300;
+     padding-top: 5px;
+ }
+ .carrd img {
+     width: 20%;
+
+ }
+ .carrd h3 {
+     margin: 10px 0;
+ }
+ .carrd p{
+     font-weight: 300;
+     text-align: justify;
+ }
+ .footer {
+     display: flex;
+     width: 90%;
+     justify-content: space-evenly;
+     margin: auto;
+     padding-bottom: 50%;
+     border-bottom: 1px solid #ccc;
+
+
+ }
+ .contenedor-foo{
+     text-align: center;
+ }
+ .contenedor-foo h4{
+     color: #fff;
+     border-bottom: 3px solid thistle;
+     padding-bottom: 5px;
+     margin-bottom: 10px;
+ }
+
